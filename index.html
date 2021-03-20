@@ -83,6 +83,19 @@
 			animation-delay: 3s;
 		}
 
+		@-webkit-keyframes moveX {
+			from { left: 0; } to { left: 100%; }
+		}
+		@-moz-keyframes moveX {
+			from { left: 0; } to { left: 100%; }
+		}
+		@-o-keyframes moveX {
+			from { left: 0; } to { left: 100%; }
+		}
+		@keyframes moveX {
+			from { left: 0; } to { left: 100%; }
+		}
+
 		@-webkit-keyframes moveY {
 			from { top: 0; } to { top: 100%; }
 		}
@@ -94,19 +107,6 @@
 		}
 		@keyframes moveY {
 			from { top: 0; } to { top: 100%; }
-		}
-	    
-	    	@-webkit-keyframes moveX {
-			from { left: 0; } to { left: 100%; }
-		}
-		@-moz-keyframes moveX {
-			from { left: 0; } to { left: 100%; }
-		}
-		@-o-keyframes moveX {
-			from { left: 0; } to { left: 100%; }
-		}
-		@keyframes moveX {
-			from { left: 0; } to { left: 100%; }
 		}
       </style>
       <body> 
@@ -227,23 +227,14 @@
 
 		<a href="#jokes">Back to the jokes! Ribbit</a>
 		<br><br><br><br>
-
+		<label> Families </label>
 		<input id="text" type="text"  list ="text_editors">
 
 		<datalist id="text_editors">
-			<option value="Cane TOADS"></option>
-			<option value="Common TOADS"></option>
-			<option value="Natterjack TOADS"></option>
-			<option value="American TOADS"></option>
-			<option value="European Green TOADS"></option>
-			<option value="Yellow-Bellied TOADS"></option>
-			<option value="Asian Common TOADS"></option>
-			<option value="Colorado River TOADS"></option>
-			<option value="Golden TOADS"></option>
-			<option value="Common Midwife TOADS"></option>
-			<option value="Asiatic TOADS"></option>
-			<option value="Western TOADS"></option>
-			<option value="Japanese Common TOADS"></option>
+			<option value="Archaeobatrachia"></option>
+			<option value="Mesobatrachia"></option>
+			<option value="Neobatrachia"></option>
+			
 			
 		</datalist><br>
 		<br>
